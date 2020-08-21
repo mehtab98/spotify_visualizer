@@ -1,0 +1,17 @@
+{
+  "name": "featurefy-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Kyle Muldoon",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "dataframe-js": "^1.4.3"
+  }
+}

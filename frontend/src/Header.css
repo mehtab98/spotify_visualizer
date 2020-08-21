@@ -1,0 +1,29 @@
+#Header {
+    color: white;
+    background: #121212;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 20px;
+    border-bottom: 5px solid #1db954;
+}
+
+#logo {
+    width: 60px;
+    margin-left: 50px;
+}
+
+#title-bar {
+    font-size: 60px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    font-size: 15px;
+    margin-left: 10px;
+}
